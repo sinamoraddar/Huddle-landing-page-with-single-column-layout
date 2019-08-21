@@ -1,0 +1,40 @@
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  text-align: center;
+}
+.mainSection__introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 85px;
+  p {
+    color: $grayishBlue;
+    margin: 10px auto;
+    width: 70% !important;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.mainSecion__header {
+  color: $veryDarkCyan;
+  font-family: $poppinsFont;
+  font-size: 150%;
+  font-weight: $boldFontWeight;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.mainSection__introduction__imageContainer{
+    width: 65%;
+    @media screen and (max-width:$mobileBreakpoint) {
+        width: 100%;
+        
+    }
+}

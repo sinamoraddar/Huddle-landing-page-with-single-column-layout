@@ -1,0 +1,23 @@
+{
+  "name": "huddle-landing-page-with-single-column-layout",
+  "version": "1.0.0",
+  "description": "solution for the challenge of frontendmentor.io site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/styles/sass-files/styles.scss:assets/styles/styles.css ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinamoraddar/Huddle-landing-page-with-single-column-layout.git"
+  },
+  "author": "sinamoraddar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinamoraddar/Huddle-landing-page-with-single-column-layout/issues"
+  },
+  "homepage": "https://github.com/sinamoraddar/Huddle-landing-page-with-single-column-layout#readme",
+  "dependencies": {
+    "sass": "^1.22.10"
+  }
+}

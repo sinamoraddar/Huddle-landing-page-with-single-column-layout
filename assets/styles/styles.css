@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  padding: 25px 40px;
+}
+header a {
+  display: inline-block !important;
+  width: 150px;
+  height: auto;
+}
+header img {
+  width: 100% !important;
+}
+@media screen and (max-width: 375px) {
+  header {
+    padding: 25px;
+  }
+  header a {
+    width: 100px;
+  }
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  text-align: center;
+}
+
+.mainSection__introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 85px;
+}
+.mainSection__introduction p {
+  color: #808d99;
+  margin: 10px auto;
+  width: 70% !important;
+}
+.mainSection__introduction img {
+  width: 100%;
+  height: auto;
+}
+
+.mainSecion__header {
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+  font-size: 150%;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.mainSection__introduction__imageContainer {
+  width: 65%;
+}
+@media screen and (max-width: 375px) {
+  .mainSection__introduction__imageContainer {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

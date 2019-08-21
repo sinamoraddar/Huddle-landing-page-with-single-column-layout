@@ -1,0 +1,18 @@
+header {
+  padding: 25px 40px;
+  a {
+    display: inline-block !important;
+    width: 150px;
+    height: auto;
+  }
+  img {
+    width: 100% !important;
+  }
+
+  @media screen and (max-width: $mobileBreakpoint) {
+    padding: 25px;
+    a {
+      width: 100px;
+    }
+  }
+}
