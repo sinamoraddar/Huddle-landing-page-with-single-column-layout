@@ -4,17 +4,20 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background: $veryDarkCyan;
   padding: 40px;
   * {
     color: white;
+  }
+  @media screen and (max-width: $mobileBreakpoint) {
+    padding: 25px;
   }
 }
 
@@ -24,17 +27,17 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   .footer__navLinks {
     ul {
       display: -webkit-box;
@@ -42,23 +45,24 @@ footer {
       display: flex;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+      flex-wrap: wrap;
       padding: 0;
       li {
         list-style-type: none;
-        margin: 0 5px;
+        margin-right: 15px;
         a {
           text-decoration: none;
+        }
+        a:hover,
+        a:active {
+          text-decoration: underline;
         }
       }
       li:last-child {
         margin-right: 0;
-      }
-      li:first-child {
-        margin-left: 0;
       }
     }
   }
@@ -91,13 +95,14 @@ footer {
 .footer__navBar {
   // display: flex;
   -webkit-box-align: end !important;
-      -ms-flex-align: end !important;
-          align-items: flex-end !important;
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
   @media screen and (max-width: $mobileBreakpoint) {
     -webkit-box-align: start !important;
-        -ms-flex-align: start !important;
-            align-items: flex-start !important;
-  .footer__copyRight{
-  text-align: center!important;
-}}
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+    .footer__copyRight {
+      text-align: center !important;
+    }
+  }
 }
