@@ -38,7 +38,7 @@
     margin: 10px auto;
     width: 50% ;
     @media screen and(max-width:$mobileBreakpoint) {
-    line-height: 110%;
+    line-height: 130%;
     font-size: 90%;
     width: 80%;
       
@@ -50,7 +50,7 @@
     margin: 25px 0;
   }
 }
-.mainSecion__header {
+.mainSection__header {
   color: $veryDarkCyan;
   font-family: $poppinsFont;
   font-size: 250%;
@@ -134,17 +134,5 @@
     padding: 10px;
     max-width: 200px;
   }
-  @media screen and (max-width: $mobileBreakpoint) {
-    // button {
-    //   width: 10000px!important;
-    // }
-    // input {
-    //   width: 100%;
-    // }
-  }
 }
 
-.container {
-  width: 100%;
-  height: 100%;
-}

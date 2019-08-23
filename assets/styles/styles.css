@@ -72,7 +72,7 @@ header {
 }
 @media screen and (max-width: 375px) {
   .mainSection__introduction p {
-    line-height: 110%;
+    line-height: 130%;
     font-size: 90%;
     width: 80%;
   }
@@ -83,7 +83,7 @@ header {
   margin: 25px 0;
 }
 
-.mainSecion__header {
+.mainSection__header {
   color: #00252e;
   font-family: "Poppins", sans-serif;
   font-size: 250%;
@@ -93,7 +93,7 @@ header {
   width: 100%;
 }
 @media screen and (max-width: 375px) {
-  .mainSecion__header {
+  .mainSection__header {
     font-size: 150%;
   }
 }
@@ -168,10 +168,6 @@ header {
   padding: 10px;
   max-width: 200px;
 }
-.container {
-  width: 100%;
-  height: 100%;
-}
 
 footer {
   display: -webkit-box;
@@ -186,6 +182,7 @@ footer {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  font-size: 80%;
   background: #00252e;
   padding: 40px;
 }

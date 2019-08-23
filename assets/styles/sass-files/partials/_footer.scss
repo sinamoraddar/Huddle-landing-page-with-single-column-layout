@@ -11,6 +11,7 @@ footer {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  font-size: 80%;
   background: $veryDarkCyan;
   padding: 40px;
   * {
@@ -103,7 +104,6 @@ footer {
   list-style: none;
 }
 .footer__navBar {
-  // display: flex;
   -webkit-box-align: end !important;
   -ms-flex-align: end !important;
   align-items: flex-end !important;
