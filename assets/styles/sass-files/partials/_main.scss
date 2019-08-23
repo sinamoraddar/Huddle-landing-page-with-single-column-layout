@@ -3,15 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 25px;
+  padding: 50px 10%;
   text-align: center;
   @media screen and(max-width:$mobileBreakpoint) {
-    padding-left: 0;
-    padding-right: 0;
-    section {
-      padding-left: 0;
-      padding-right: 0;
-    }
+ padding: 50px 5%;
+    // section {
+    //   padding-left: 0;
+    //   padding-right: 0;
+    // }
   }
 }
 .mainSection__introduction {
@@ -19,11 +18,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 85px;
+  // padding: 0 85px;
   p {
     color: $grayishBlue;
+    line-height: 140%;
     margin: 10px auto;
-    width: 80% !important;
+    width: 50% !important;
   }
   img {
     width: 100%;
@@ -34,14 +34,15 @@
 .mainSecion__header {
   color: $veryDarkCyan;
   font-family: $poppinsFont;
-  font-size: 150%;
+  font-size: 250%;
   font-weight: $boldFontWeight;
   text-align: center;
   text-transform: capitalize;
+  width: 100%;
 }
 
 .mainSection__introduction__imageContainer {
-  width: 65%;
+  width: 70%;
   @media screen and (max-width: $mobileBreakpoint) {
     width: 100%;
   }
@@ -55,6 +56,9 @@
     border-radius: 5px;
     box-sizing: border-box;
   }
+  h1 {
+    height: 50%;
+  }
   form {
     display: flex;
     align-items: center;
@@ -64,7 +68,7 @@
     margin: 0 auto;
     min-width: 210px;
     width: 60%;
-    height: 100%;
+    height: 50%;
   }
   input {
     border: none;
