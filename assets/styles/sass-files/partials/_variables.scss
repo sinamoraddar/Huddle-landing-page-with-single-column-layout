@@ -16,3 +16,15 @@ $boldFontWeight: 700;
 $poppinsFont: "Poppins", sans-serif;
 // body
 $openSansFont: "Open Sans", sans-serif;
+
+// placeholder classes
+%logo {
+  a {
+    display: inline-block !important;
+    width: 150px;
+    height: auto;
+  }
+  img {
+    width: 100% !important;
+  }
+}

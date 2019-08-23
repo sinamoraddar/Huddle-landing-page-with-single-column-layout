@@ -8,11 +8,12 @@
       SinaMoraddar | Frontend Mentor Challenge | Huddle landing page with single
       column layout
     </title>
+    <script src="https://kit.fontawesome.com/66161718a0.js"></script>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./vendors/images/favicon-32x32.png"
+      href="./resources/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./assets\styles\vendors\normalize.css" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
@@ -41,13 +42,54 @@
         </div>
       </section>
       <section class="mainSection__signUp">
-        <h1 class="mainSecion__header">
-          sign up for early access
-        </h1>
+        <div class="container">
+          <h1 class="mainSecion__header">
+            sign up for early access
+          </h1>
+          <form>
+            <input
+              type="email"
+              name="signUp"
+              id="signUp"
+              placeholder="email@example.com"
+            />
+            <button type="submit">Register</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer>
-      footer goes here
+      <div class="footer__section footer__navBar">
+        <div class="logo">
+          <a href="./"
+            ><img src="./resources/images/whiteLogo.svg" alt="huddle logo"
+          /></a>
+        </div>
+        <nav class="footer__navLinks">
+          <ul>
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">What We Do</a></li>
+            <li><a href="/">FAQ</a></li>
+            <li><a href="/">Career</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__section">
+        <ul class="footer__socialIcons">
+          <li>
+            <a href="/"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fab fa-twitter-square"></i></a>
+          </li>
+        </ul>
+        <div class="footer__copyRight">&copy;2018 Huddle Copyright</div>
+      </div>
     </footer>
   </body>
 </html>
